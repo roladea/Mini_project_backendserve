@@ -1,0 +1,23 @@
+<div class="flex justify-between items-center mb-4">
+    <h2 class="text-xl font-bold text-gray-700">Data Mahasiswa</h2>
+    <a href="/tambah" class="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded shadow transition">
+        + Tambah Mahasiswa
+    </a>
+</div>
+
+<div class="bg-white rounded-lg shadow overflow-hidden">
+    <table class="table-auto w-full text-left border-collapse">
+        <thead>
+            <tr class="bg-gray-200 text-gray-600 uppercase text-sm leading-normal border-b">
+                <th class="p-3">ID</th>
+                <th class="p-3">Nama</th>
+                <th class="p-3">Jurusan</th>
+                <th class="p-3">Angkatan</th>
+                <th class="p-3 text-center">Aksi</th>
+            </tr>
+        </thead>
+        <tbody class="text-gray-600 text-sm font-light">
+            {{rows}}
+        </tbody>
+    </table>
+</div>
